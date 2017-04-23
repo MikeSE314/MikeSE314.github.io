@@ -31,3 +31,6 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Mac auto-generated files
+.DS_Store
