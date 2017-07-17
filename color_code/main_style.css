@@ -1,0 +1,65 @@
+h4 {
+    margin: 5px;
+    margin-top: 20px;
+}
+
+* {
+    font-family: "helvetica";
+}
+
+p {
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+}
+/*#id .class*/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    margin: 0 auto;
+    /*margin-left: 100px;*/
+}
+
+#mainContent {
+    margin: 0 auto;
+    width: 75%;
+}
+
+/*.left .right {
+    width: 50%;
+}*/
+
+/*.left {
+    flex-grow: 1;
+}
+
+.right {
+    flex-grow: 1;
+}*/
+
+
+
+.short {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.long {
+    grid-column: 1 / 4;
+    grid-row: auto;
+}
+
+.forScore {
+    height: 1em;
+}
