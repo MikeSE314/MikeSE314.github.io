@@ -67,7 +67,12 @@ function populate() {
             newInput.setAttribute("type", "radio");
             newInput.setAttribute("value", values[shuffled[j]]);
             newDiv.appendChild(newInput);
-            newDiv.innerHTML += questions.questions[i].answers[shuffled[j]] + "<br>";
+
+            var newLabel = document.createElement("label");
+            newLabel.setAttribute("for", "q_" + i.toString() + "_" + shuffled[j].toString());
+            newLabel.innerHTML = questions.questions[i].answers[shuffled[j]] + "<br>";
+
+            newDiv.appendChild(newLabel);
         }
         parentDiv.appendChild(newDiv);
     }

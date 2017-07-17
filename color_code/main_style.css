@@ -5,7 +5,11 @@ h4 {
 
 * {
     font-family: "helvetica";
-    font-size: 105%;
+    font-size: 120%;
+}
+
+label {
+    font-size: 100%;
 }
 
 /*div {
