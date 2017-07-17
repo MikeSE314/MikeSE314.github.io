@@ -57,13 +57,6 @@ form {
     font-size: 90%;
 }
 
-@media only screen and (max-device-width: 480px) {
-    .wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 12%;
-    }
-}
-
 .short {
     /*grid-column: auto;
     grid-row: auto;*/
@@ -72,9 +65,19 @@ form {
 
 .long {
     grid-column: 1 / 4;
-    grid-row: auto;
+    /*grid-row: auto;*/
 }
 
 .forScore {
     height: 1em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 12%;
+    }
+    .long {
+        grid-column: 1 / 3;
+    }
 }
