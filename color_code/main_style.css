@@ -5,15 +5,20 @@ h4 {
 
 * {
     font-family: "helvetica";
+    font-size: 105%;
 }
 
-p {
-    font-size: 1.5em;
-}
+/*div {
+    font-size: 100%;
+}*/
 
-button {
+/*p {
+    font-size: 100%;
+}*/
+
+/*button {
     font-size: 2em;
-}
+}*/
 
 form {
     display: flex;
@@ -24,11 +29,14 @@ form {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: none;*/
     grid-gap: 10px;
+    /*grid-auto-columns: minmax(100px, auto);*/
+    grid-auto-columns: auto;
     grid-auto-rows: minmax(100px, auto);
 
     margin: 0 auto;
-    /*margin-left: 100px;*/
+    margin-left: 5%;
 }
 
 #mainContent {
@@ -36,9 +44,6 @@ form {
     width: 75%;
 }
 
-/*.left .right {
-    width: 50%;
-}*/
 
 /*.left {
     flex-grow: 1;
@@ -48,11 +53,21 @@ form {
     flex-grow: 1;
 }*/
 
+.short, .long {
+    font-size: 90%;
+}
 
+@media only screen and (max-device-width: 480px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 12%;
+    }
+}
 
 .short {
-    grid-column: auto;
-    grid-row: auto;
+    /*grid-column: auto;
+    grid-row: auto;*/
+    /*font-size: 100%;*/
 }
 
 .long {
