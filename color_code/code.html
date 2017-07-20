@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="../base_style.css">
         <link rel="stylesheet" type="text/css" href="main_style.css">
         <script type="text/javascript" src="color_code_script.js"></script>
         <!-- <script type="text/javascript">
@@ -9,7 +10,12 @@
         <title>Color Code Test</title>
     </head>
     <body onload="populate()">
-        <div id="mainContent">
+        <span id="header">
+            <div id="accent_bar">
+            </div>
+        </span>
+        <div id="below_header"></div>
+        <div id="main_content">
             <p>
                 Hello! So this is the color code test! Yes, so prestigious, I
                 know, so beautiful! Oh, stop! stop, I'm blushing! So, yes, this
@@ -24,7 +30,7 @@
             </p>
             <form name="firstForm">
                 <div class="wrapper" id="parentDiv">
-
+                    <!-- most of the stuff goes here -->
                 </div>
             </form>
             <button id="calcButton" type="button" onclick="calc()">Calculate!</button>
