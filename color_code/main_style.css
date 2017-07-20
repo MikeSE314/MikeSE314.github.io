@@ -3,26 +3,9 @@ h4 {
     margin-top: 20px;
 }
 
-* {
-    font-family: "helvetica";
-    font-size: 120%;
-}
-
 label {
     font-size: 100%;
 }
-
-/*div {
-    font-size: 100%;
-}*/
-
-/*p {
-    font-size: 100%;
-}*/
-
-/*button {
-    font-size: 2em;
-}*/
 
 form {
     display: flex;
@@ -42,20 +25,6 @@ form {
     margin: 0 auto;
     margin-left: 5%;
 }
-
-#mainContent {
-    margin: 0 auto;
-    width: 75%;
-}
-
-
-/*.left {
-    flex-grow: 1;
-}
-
-.right {
-    flex-grow: 1;
-}*/
 
 .short, .long {
     font-size: 90%;
