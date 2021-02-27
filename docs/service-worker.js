@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a4908b1a5769ffaebf13978250f1a7e3.js"
+  "/precache-manifest.a327d65dd0b2a7ab2063da5d8bec5a5c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mikese314.github.io"});
