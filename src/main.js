@@ -5,6 +5,7 @@ import router from "./router"
 import store from "./store"
 
 Vue.config.productionTip = false
+// test
 
 new Vue({
   router,
