@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block content %}
+{% if PDF_PROCESSOR %}
+<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">Download the PDF file</a>
+{% endif %}
+<div class="static-page-urls">
+    {{ page.content }}
+</div>
+{% endblock %}
