@@ -1,6 +1,6 @@
 AUTHOR = 'Micheal Erickson'
 SITENAME = "Micheal's Blog"
-SITEURL = ''
+SITEURL = 'https://mikese314.github.io'
 
 PATH = 'content'
 
